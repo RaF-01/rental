@@ -10,6 +10,17 @@
 
 body {
     font-family: font1;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.logo{
+    max-width: 40px;
+}
+
+.gambar{
+    max-width: 300px;
+    max-height: 150px;
 }
 
 .font1 {
