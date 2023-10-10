@@ -65,3 +65,7 @@ table {
     transform: scale(1.02);
     transition: 1s;
 }
+
+.card{
+    max-width: 300px;
+}
