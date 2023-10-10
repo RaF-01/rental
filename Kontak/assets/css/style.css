@@ -1,0 +1,71 @@
+@font-face {
+    font-family: font1;
+    src: url(../font/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../font/ADLaMDisplay-Regular.ttf);
+}
+
+body {
+    font-family: font1;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.logo{
+    max-width: 40px;
+}
+
+.gambar{
+    max-width: 300px;
+    max-height: 150px;
+}
+
+.font1 {
+    font-family: font1;
+}
+
+.font2 {
+    font-family: font2;
+}
+
+table {
+    cursor: pointer;
+}
+
+.lokasi {
+    text-decoration: none;
+    color: white;
+}
+
+.lokasi:hover {
+    text-decoration: underline;
+}
+
+.nomor {
+    text-decoration: none;
+    color: white;
+}
+
+.nomor:hover {
+    text-decoration: underline;
+}
+
+.pesan {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.pesan:hover {
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+.card{
+    max-width: 300px;
+}
